@@ -1,0 +1,22 @@
+ls
+pwd
+mkdir -p homework/lesson1
+cd homework/lesson1
+touch "notes.txt"
+echo "1. pwd - текущая директория" > notes.txt
+echo "2. ls - список файлов и папок" >> notes.txt
+echo "3. cd - перейти в указанную папку" >> notes.txt
+echo "4. mkdir - создание папки" >> notes.txt
+echo "5. rmdir - удаление пустой папки" >> notes.txt
+echo "6. rm -r - удаление папки с содержимым" >> notes.txt
+echo "7. touch - создать пустой файл" >> notes.txt
+echo "8. cat - показать содержимое" >> notes.txt
+echo "9. mv - переименовать или переместить" >> notes.txt
+echo "10. whoami - текущий пользователь" >> notes.txt
+touch "app.py"
+echo 'name = input("Введите имя: ")' > app.py
+echo 'age = input("Введите возраст: ")' >> app.py
+echo 'print(f"Имя: {name}")' >> app.py
+echo 'print(f"Возраст: {age}")' >> app.py
+cat notes.txt
+cat app.py
